@@ -8,18 +8,34 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.londonappbrewery.iampoor.MainActivity"
-    android:background="@android:color/darker_gray">
+    android:background="#dfe6e9">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="38dp"
-        android:text="@string/title"
-        android:textColor="#000"
-        android:textSize="38sp" />
+        android:layout_above="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginBottom="32dp"
+        android:text="I am"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:text="Poor"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="50sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:layout_width="200dp"
